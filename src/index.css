@@ -1,0 +1,38 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	transition: all .2s ease;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body {
+	padding: 1rem;
+	background-color: rgba(68, 144, 220, 0.868);
+}
+
+button {
+	border: none;
+	background: none;
+}
+
+
+@media (max-width: 991px) {
+	html {
+		font-size: 54%;
+	}
+}
+
+@media (max-width: 541px) {
+	html {
+		font-size: 50%;
+	}
+}
